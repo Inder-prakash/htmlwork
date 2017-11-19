@@ -1,0 +1,45 @@
+		
+.petal {
+	width: 150px;
+	height: 150px;
+	background: #B22222;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 1050px;
+	border-radius: 100px;
+}
+.disc {
+	width: 100px;
+	height: 100px;
+	background: #8FBC8F;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+.stem {
+	width: 25px;
+	height: 500px;
+	background: #006400;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+.flowerpot {
+	width: 330px;
+	height:130px;
+	background: #8B4513;
+	border-radius: 0px 0px 100px 100px;
+}
+.leaf1 {
+	  width: 150px; height:120px;
+      background-color: #A0DE21; 
+      -moz-border-radius: 100px 0px;
+      -webkit-border-radius: 100px 0px;
+      border-radius: 1500px 0px;
+}
+.leaf2 {
+	  width: 150px; height:120px;
+      background-color: #A0DE21; 
+      -moz-border-radius: 100px 0px;
+      -webkit-border-radius: 100px 0px;
+      border-radius: 0px 1500px;
+}

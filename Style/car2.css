@@ -1,0 +1,159 @@
+.anim {
+    position: relative;
+    -webkit-animation: mymove 4s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 4s infinite;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 800px;}
+}
+.upmodel{
+	border-bottom: 100px solid brown;
+    border-radius: 15px 0px 0px 0px;
+    border-right: 100px solid transparent;
+    height: 100;
+    width: 250px;
+}
+.window {
+	width: 50px;
+	height: 50px;
+	background: white;
+	border: 5px solid black;0
+}
+.lowmodel {
+	width: 500px;
+	height: 100px;
+	background: brown;
+	border-radius: 0px  20px 0px 0px;
+} 
+.wheelcap1 {
+	width: 5px;
+	height: 60px;
+	background: white;
+	border-radius: 150px 150px 150px 150px;
+	-webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;  
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.wheelcap2 {
+	width: 60px;
+	height: 5px;
+	background: white;
+	border-radius: 150px 150px 150px 150px;
+	-webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;  
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.road1 {
+	width: 2000px;
+	height: 150px;
+	background: black;
+}
+.road2 {
+	width: 200px;
+	height: 35px;
+	background: white;
+}
+
+.guard {
+     width: 100px;
+    height: 50px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border: 10px solid black;
+    border-bottom: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wheel {
+	border-style: solid;
+    border-width: 2px;
+    border-color: white;
+	width: 80px;
+	height: 80px;
+	background: black;
+    border-radius: 40px;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;  
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.petal {
+	width: 70px;
+	height: 70px;
+	background: green;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 1050px;
+	border-radius: 100px;
+}
+
+.stem {
+	width: 25px;
+	height: 170px;
+	background: brown;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}

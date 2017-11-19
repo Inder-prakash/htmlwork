@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Star</title>
+</head>
+<style>
+body {
+  margin: 0 0 0 0;
+}
+  .main {
+    margin: 0 auto 0 auto;
+    width: 1024px;
+    height: 60px;
+    padding:100px;
+    background-color:#ffbb99;
+  }
+  .box {
+     margin: 0 auto 0 auto;
+     width: 1024px;
+     text-align: center;
+     background-color:#b3fff0;
+  }
+</style>
+<Script>
+  function oddeven() {
+    var num = document.getElementById("num").value;
+    var i;
+    var l;
+    var k;
+    var text = "";
+    if( num%2 != 0 ) {
+          for ( i=1; i<=num; i++ ) {
+          if( i%2 != 0 ) {
+          for( l=1; l<=(num-i); l++) {
+            text += "";
+          }
+          for( k=0; k<i; k++) {
+            text += "&nbsp&nbsp*"; 
+          }
+          text += "<br>";
+          document.getElementById("box").innerHTML = text;
+        }
+      } 
+         for ( i=1; i<=num-1; i++ ) {
+         if( i%2 != 0 ) {
+         for( l=0; l<i+1; l++) {
+           text += "";
+         }
+         for( k=0; k<=(num-i-2); k++ ) {
+           text += "&nbsp&nbsp*"; 
+         }
+         text += "<br>";
+         document.getElementById("box").innerHTML = text;
+       }
+     }
+    } 
+    else {
+      text = "Your Number Is Even";
+      document.getElementById("box").innerHTML = text;
+    }
+  }
+
+
+ window.onload = function () {
+    var person = prompt("Please enter the password :");
+    if (person == null || person == "") {
+        window.location = "http://www.google.com";
+    } else {
+        if (person == "6667196" ) {
+
+        }
+        else {
+          window.location = "http://www.google.com";
+        }
+    }
+}
+
+
+
+</script>
+
+<body>
+<div>
+<div class="main">
+  <table align="center">
+  <tr>
+    <td>Enter a odd Number</td>
+    <td><input id="num" type="number"></td>
+  </tr>  
+  <tr>
+    <td></td>
+    <td><input style="width:60px;" onclick="oddeven()" value="Print" type="button"></td>
+  </tr> 
+</table>
+</div>
+<div id="box" class="box"> 
+
+</div>
+</body>
+</html>
